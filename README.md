@@ -13,8 +13,7 @@ Resumidamente ele destrói o prefab original e cria uma duas copias de cores dif
 
 Código para tanto poder mover a câmera e poder utilizar o mouse para poder destruir e criar esferas:
 
-''' 
-using UnityEngine;
+''' using UnityEngine;
 
 public class RaycastSpawner : MonoBehaviour
 {
@@ -55,5 +54,5 @@ public class RaycastSpawner : MonoBehaviour
             }
         }
     }
-}
+} '''
 
