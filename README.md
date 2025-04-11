@@ -11,7 +11,7 @@ GameObjects usados: 4 Retângulos para criar uma sala e um solo, e uma esfera pa
 <h2>Como funciona</h2>: Movendo a câmera você é capaz de lançar um Raycast na direção que você está olhando, se atingir a esfera ela se destroi e cria outras duas em um raio de 0 a 5f no ângulo X, assim se repetindo a cada esfera atingida.
 Resumidamente ele destrói o prefab original e cria uma duas copias de cores diferentes em um raio de 0f a 5f.
 
-Código para destruir e criar esferas:
+Código para tanto poder mover a câmera e poder utilizar o mouse para poder destruir e criar esferas:
 
 ''' 
 using UnityEngine;
@@ -56,4 +56,5 @@ public class RaycastSpawner : MonoBehaviour
         }
     }
 }
+
 ```
